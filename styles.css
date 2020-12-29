@@ -1,0 +1,491 @@
+body {
+    width:1366px;
+    margin: 0;
+}
+
+header {
+    background-image: url('../img/images/header.png');
+    height: 560px;
+}
+
+.renewal {
+    height: 720px;
+    text-align: center;
+}
+.renewal h1 {
+    font-size: 40px;
+    color:#000000;
+    margin-top: 88px;
+}
+.renewal h1 span {
+    color: #9c000f;
+}
+.renewal p {
+    font-size: 22px;
+    font-weight: bold;
+}
+.renewal p span {
+    font-size: 27px;
+}
+.renewal .container {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+.renewal .pointnumber {
+    text-align: center;
+    padding-top: 30px;
+}
+.renewal .pointnumber p {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+.renewal .pointnumber h1 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.renewal .pointnumber .underline {
+    width:30px;
+    height: 3px;
+    background-color: #ffffff;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+.renewal .container h2 {
+    font-size: 18px;
+}
+.renewal .container .item {
+    height:337px;
+    width: 297px;
+    background-color: #000000;
+    margin: 0 10px;
+}
+
+.points {
+    background-color: #f7f7f7;
+}
+.points .pointnumber {
+    text-align: center;
+    padding-top: 68px;
+}
+.points .pointnumber p {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+.points .pointnumber h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.points .pointnumber .underline {
+    width:30px;
+    height: 3px;
+    background-color: #000000;
+    margin:0 auto;
+    margin-bottom: 56px;
+}
+.points  .container {
+    display: flex;
+    margin-bottom: 64px;
+}
+.points .container .item .Limage {
+    display:block;
+    width: 754px;
+    height: 368px;
+    margin-left: 79px;
+    margin-right: 48px;
+}
+.points .container .text {
+    margin-right: 81px;
+}
+.points .container .text h2 {
+    font-size: 37px;
+    margin-top: 73px;
+    margin-bottom: 30px;
+}
+
+.points .container .text p {
+    font-size: 16px;
+}
+.points .container .text .notice {
+    font-size: 12px;
+    margin-top: 16px;
+}
+.points .container:nth-child(odd) .text {
+    order: -1;
+    margin-right: 0;
+    margin-left:79px;
+}
+.points .container:nth-child(odd) .Limage {
+    margin-left:48px;
+    margin-right: 81px;
+}
+.points .container:nth-child(odd) .notice {
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+.technic {
+    background-color: #ffffff;
+    margin-left: 136px;
+    margin-right: 147px;
+    height:326px
+}
+.technic > .item {
+    width:523px;
+}
+.technic .item:first-child .blackback {
+    width: 230px;
+    margin-top: 62px;
+    margin-left: 34px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000;
+}
+.technic .item:first-child h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.technic .item:first-child h2 span {
+    font-weight: normal;
+}
+.technic .container {
+    width: 475px;
+}
+.technic .container .item img {
+    margin-left: 34px;
+    margin-right: 20px;
+}
+.technic .container .item p {
+    font-size: 15px;
+}
+
+.points .video img {
+    display: block;
+    width:1366px;
+    height: 442px;
+}
+.point04 {
+    background-color: #f7f7f7;
+    height:696px;
+}
+.newzavas {
+    height: 354px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 70px;
+}
+.newzavas h2 {
+    font-size: 32px;
+    margin-bottom: 28px;
+    width:533px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.newzavas .button {
+    width:357px;
+    height: 86px;
+    margin:0 auto;
+    border: solid 3px #eeb93e;
+    border-radius: 100vh;
+}
+.newzavas .button:hover {
+
+}
+.newzavas p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 28px;
+}
+
+footer {
+    height:176px;
+    background-color: #f7f7f7;
+    width:1366px;
+}
+footer a {
+    font-size:13px;
+    color: #666666;
+    text-decoration: none; 
+}
+footer .container {
+    display: flex;
+}
+footer .container .sns {
+    margin:20px 10px;
+}
+footer .officialp {
+    margin:10px 20px;
+}
+footer .officiala {
+    margin:27px 20px;
+}
+footer .access {
+    width: 925px;
+    margin-left: 30px;
+}
+footer .access a {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+footer .company {
+    width: 224px;
+    margin-left:auto;
+    margin-right: 30px;
+}
+footer .company h2 {
+    width:150px;
+    margin-left: auto;
+    color: #484848;
+    margin-bottom: 10px;
+}
+footer .company p {
+    font-size: 10px;
+    color: #666666;
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        width:263px;
+        margin: 0;
+    }
+    header {
+        background-image: url(../img/images/header\(SP\).png);
+        height: 350px;
+    }
+.renewal {
+    height: 512px;
+}
+.renewal h1 {
+    font-size: 20px;
+    margin-top: 36px;
+}
+.renewal p {
+    font-size: 10px;
+}
+.renewal p span {
+    font-size: 17px;
+}
+.renewal .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.renewal .pointnumber {
+    text-align: center;
+    padding-top: 30px;
+}
+.renewal .pointnumber p {
+    font-size: 10px;
+}
+.renewal .pointnumber h1 {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.renewal .pointnumber .underline {
+    width:15px;
+    height: 3px;
+    margin-bottom: 10px;
+}
+.renewal .container h2 {
+    font-size: 10px;
+}
+.renewal .container .item {
+    height:201px;
+    width: 120px;
+    margin: 0;
+    border: #ffffff 1px solid;
+}
+.renewal .container img {
+    height: 50px;
+    width: 60px;
+}
+
+
+.points .pointnumber {
+    margin-top: 20px;
+}
+.points .pointnumber p {
+    font-size: 10px;
+    font-weight: bold;
+}
+.points .pointnumber h1 {
+    font-size: 25px;
+}
+.points .pointnumber .underline {
+    width:23px;
+    height: 3px;
+    margin-bottom: 30px;
+}
+.points  .container {
+    display: block;
+    margin-bottom: 36px;
+}
+.points .container .item .Limage {
+    display:block;
+    width:229px;
+    height: 146px;
+    margin-left: 21px;
+    margin-right: 10px;
+}
+.points .container .text {
+    margin-left: 21px;
+    margin-right:19px;
+}
+.points .container .text h2 {
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.points .container .text p {
+    font-size: 10px;
+}
+.points .container .text .notice {
+    font-size: 10px;
+    margin-top: 10px;
+}
+.points .container:nth-child(odd) .text {
+    margin-right: 0;
+    margin-left:21px;
+}
+.points .container:nth-child(odd) .Limage {
+    margin-left:21px;
+    margin-right:0px;
+}
+.points .container:nth-child(odd) .notice {
+    font-size: 10px;
+    margin-top: 10px;
+}
+.technic {
+    margin-left: 31px;
+    margin-right: 31px;
+    height:450px
+}
+.technic > .item {
+    width:197px;
+}
+.technic .item:first-child .blackback {
+    width: 117px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 11px;
+}
+.technic .item:first-child h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.technic .container {
+    width: 197px;
+}
+.technic .container .item img {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.technic .container .item p {
+    font-size: 8px;
+}
+.technic .imgpoint01 {
+    display: block;
+    width: 200px;
+    height: 157px;
+}
+.points .video img {
+    margin-top:31px;
+    width:263px;
+    height: 154px;
+}
+.point04 {
+    height:496px;
+}
+.newzavas {
+    height: 191px;
+    padding-top: 25px;
+}
+.newzavas h2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    width:202px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.newzavas .button {
+    width:203px;
+    height: 51px;
+}
+.newzavas .button:hover {
+
+}
+.newzavas p {
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+footer {
+    height:358px;
+    width:263px;
+}
+footer a {
+    font-size:3px;
+}
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .container .sns {
+    margin:15px 7px;
+}
+footer .container .firstsns {
+    margin-left:56px;
+}
+footer .container .sns img {
+    display: block;
+    width:25px;
+    height:25px;
+}
+footer .officialp {
+    display: none;
+}
+footer .officiala {
+    margin:8px;
+    margin-left: 90px;
+}
+footer .access {
+    margin-left: 10px;
+}
+footer .access a {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+footer .company {
+    width: 224px;
+    margin-left:auto;
+    margin-right: 30px;
+}
+footer .company h2 {
+    font-size: 13px;
+    width:150px;
+    margin-bottom: 10px;
+}
+footer .company p {
+    font-size: 2px;
+    margin-bottom:14px;
+}
+
