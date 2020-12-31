@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-image: url('/img/images/header.png');
+    background-image: url('img/images/header.png');
     height: 560px;
 }
 
@@ -262,7 +262,7 @@ footer .company p {
         margin: 0;
     }
     header {
-        background-image: url(../img/images/header\(SP\).png);
+        background-image: url('img/images/header\(SP\).png');
         height: 350px;
     }
 .renewal {
